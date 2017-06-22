@@ -5,7 +5,7 @@ export default class MemberList extends Component {
     const props = {
       name:"tinkogroups",
       title:"tinkogroups",
-      src: "https://tinko.org/tinkogroups.html",
+      src: "https://cuderia1917.github.io/tnkgroup/",
       style: {
         border: 0,
         borderWidth: 0
