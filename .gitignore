@@ -1,0 +1,8 @@
+.htaccess
+node_modules/
+build/
+npm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
