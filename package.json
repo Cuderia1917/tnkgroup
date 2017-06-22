@@ -1,0 +1,41 @@
+{
+  "name": "tnkgroup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "qrcode.react": "^0.7.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "npm-run-all": "^4.0.2",
+    "opener": "^1.4.3",
+    "react-scripts": "1.0.2"
+  },
+  "scripts": {
+    "start": "npm-run-all -p start:dev browser",
+    "start:production": "node ./app.js",
+    "start:dev": "react-scripts start",
+    "browser": "opener http://localhost:3000/",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/js/**"
+  },
+  "author": "kam1nchu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaminchu/tnkgroup/issues"
+  },
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaminchu/tnkgroup.git"
+  },
+  "description": "あとでかく"
+}
