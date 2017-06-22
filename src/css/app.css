@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    font-family: "ＭＳ Ｐゴシック", "MS P Gothic";
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a {
+    color: #464646;
+}
+
+.QR {
+    padding: 0px 0px 16px 0px;
+    position: absolute;
+    left: 292px;
+}
+
+.Container {
+    left: 292px;
+    bottom: 136px;
+}
